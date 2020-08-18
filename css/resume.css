@@ -23,7 +23,7 @@ HEADER{
 
 .sectionId{
 	float: left;
-	width: 50%;
+	width: 60%;
 	font-size: 20px;
 	padding: 20px;
 }
@@ -36,7 +36,7 @@ HEADER{
 
 ARTICLE {
 	float: left;
-	width: 50%;
+	width: 40%;
 	font-size: 20px;
 	padding: 20px;
 	height: 150px;
