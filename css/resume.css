@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: defaultfont;
+  src: url(NotoSerif-Italic.ttf);
+}
+
+HEADER{
+	font-family: defaultfont;
+	background-color: Yellow;
+	padding: 25px;
+	font-size: 40px;
+	border: 0px;
+	margin: 0px;
+}
+
+.contactInfo{
+	float: right;
+	font-size: 20px;
+}
+
+.sectionId{
+	float: left;
+	width: 50%;
+	font-size: 20px;
+	padding: 20px;
+}
+
+.edu{
+	font-size: 25px;
+	color: Blue;
+	font-family: defaultfont;
+}
+
+ARTICLE {
+	float: left;
+	width: 50%;
+	font-size: 20px;
+	padding: 20px;
+	height: 150px;
+}
+
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+	background-color: #3333ff;
+	padding: 0px;
+	text-align: center;
+	color: white;
+}
